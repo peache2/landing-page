@@ -29,13 +29,15 @@
     color: rgb(167, 167, 167);
 }
 
-.hero-image {
-    max-width: 1500px; height: 900px;
-    border-radius: 30px;
-    margin-bottom: 50px;
-    
+.hero-image {  
+    max-width: 100%; 
+    border-radius: 10px;
+    margin-bottom: 20px;
+    position: center; 
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 480px;
 }
-
 
 .hero-text {
     position: absolute;
@@ -45,5 +47,6 @@
     bottom: 20px;
     left: 810px;
     border-radius: 10px;
-    
+    text-align: center;
+
 }
